@@ -1,0 +1,42 @@
+<!--Hecho por Soul (Alma Velasquez)-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Consulta de Rubros</title>
+</head>
+<body background="../img/Red Neon and Stones.jfif" style="color: white;">
+    <h1 align="center">Consulta de Rubros</h1>
+    <form action="5consulta_resultado.php" method="POST">
+        <table border="1" bgcolor="#030303" align="center">
+            <tr>
+                <td>Ingrese el codigo de rubro a consultar:</td>
+                <td><input type="text" name="codigo" size="10" required></td>
+            </tr>
+            <tr align="center">
+                <td colspan="2"><input type="submit" value="Consultar"></td>
+            </tr>
+        </table>
+    </form>
+    <br>
+    <table border="1" bgcolor="#730E0E" align="center">
+        <tr align="center">
+            <td>
+                <a href="1rubros.html">
+                    <input type="button" value="Alta de rubros"></a>
+            </td>
+            <td><a href="3listado.php">
+            <input type="button" value="Listado de Rubros"></td>
+        </tr>
+        <tr align="center">
+            <td>
+                <a href="6modificar_rubros.html">
+                <input type="button" value="Modificacion de Rubros"></a>
+            </td>
+            <td><a href="9borrado_rubros.html">
+                <input type="button" value="Borrado de Rubros"></td>
+        </tr>
+    </table>
+</body>
+</html>
